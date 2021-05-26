@@ -9,13 +9,32 @@
 <body>
     <main id="container">
         <h1>Strings and Arrays</h1>
-        <h4 id="newOrder">my new order</h4>
+        <form id="orderForm">
+            <label for="orderInput">New Order</label>
+            <input id="orderInput" value="shoes hat playstation"/>
+        </form>
         <div class="buttonRow">
             <button
                 id="placeOrder"
             >Place Order</button>
+            <button
+                id="splitOrder"
+            >Split Order</button>
+            <button
+                id="csvOrder"
+            >CSV Order</button>
+            <button
+                id="spliceOrder"
+            >Splice Order</button>
         </div>
+        <h3>Conveyor belt &darr;</h3>
         <article id="conveyorBelt"></article>
+        <div class="buttonRow" id="truck">
+            <button
+                id="shipOut"
+            >Ship Out</button>
+            <h3>Truck:</h3>
+        </div>
     </main>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">

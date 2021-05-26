@@ -3,13 +3,13 @@ main {
     margin: 0 auto;
     background-color: papayawhip;
     height: 100vh;
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
 }
 
 h1 {
     width: 100%;
     text-align: center;
-    margin: 2rem 0;
+    margin: 0.5rem;
     font-size: 300%;
 }
 
@@ -21,6 +21,9 @@ button {
 button:hover {
     box-shadow: 2px 2px 2px grey;
 }
+button:last-child {
+    margin-right: 0;
+}
 
 article {
     background-color: beige;
@@ -30,12 +33,38 @@ article {
     overflow-y: scroll;
 }
 
-h4 {
+h3 {
+    margin: 0.5rem 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
     padding: 0.5rem;
     border: 1px solid grey;
+    background-color: azure;
+}
+label {
+    margin: 0 1rem;
+}
+input {
+    flex-grow: 1;
 }
 
 .buttonRow {
     margin: 1rem 0;
     display: flex;
+    align-items: center;
+}
+
+.truck {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    padding: 0 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid grey;
+    background-color: burlywood;
 }
