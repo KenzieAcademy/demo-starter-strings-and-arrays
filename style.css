@@ -15,6 +15,7 @@ h1 {
 
 button {
     cursor: pointer;
+    margin-right: 1rem;
 }
 
 button:hover {
@@ -29,6 +30,12 @@ article {
     overflow-y: scroll;
 }
 
-p {
-    padding: 0.5rem 1rem;
+h4 {
+    padding: 0.5rem;
+    border: 1px solid grey;
+}
+
+.buttonRow {
+    margin: 1rem 0;
+    display: flex;
 }
